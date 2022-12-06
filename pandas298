@@ -1,0 +1,35 @@
+#timothybarnes
+import pandas as pd
+
+df = pd.read_csv('/Users/timba/Downloads/weather.csv')
+#the directory for the file si shown above and then read into my jupyter notebook 
+Df.tail
+
+df['avg_temp'].min()
+
+Df.describe
+#will display the dataframe 
+#timothy Barnes
+df[df.avg_temp==df. Min]
+#takes the average of the data frame and displays it 
+df.reset_index(inplace=True)
+ 
+import pandas as pd
+data = [('Peter', 18, 7),
+        ('Riff', 15, 6),
+        ('John', 17, 8),
+        ('Michel', 18, 7),
+        ('Sheli', 17, 5) ]
+
+# entering data as a tuple
+
+
+df = pd.DataFrame(data, columns =['Name', 'Age', 'Score'])
+
+ata = [{'CTEC': 'dataframe', 'Learn': 'using', 'Pandas': 'list'},
+        {'Geeks':10, 'For': 20, 'geeks': 30}]
+df = pd.DataFrame.from_records(data,index=['1', '2'])
+print(df)
+
+# creating a dataframe through a list of  dictionaries 
+
